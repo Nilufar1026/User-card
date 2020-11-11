@@ -1,0 +1,53 @@
+.cardcontainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+.card{
+        
+    max-width: 250px;
+    background: linear-gradient(to top,lightcyan 50%, teal 50%);
+    padding-left: 10px;
+    padding-right: 20px;
+    border-radius: 5%;
+    margin: px;
+    max-height: 400px;
+    margin: 20px;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title{
+    font-size: 20px;
+    color: white;
+}
+.card-imag{
+    margin: 90px 20px auto 20px;
+    border-radius: 100%;
+    border: 15px solid white;
+}
+.email,.phone{
+    color: gray;
+}
+.email-link,.phone-nr{
+    color: black;
+    margin-top: 0px;
+}
+
+.card-header-1,.card-header-2,.card-header-3{
+    margin-top: 20px;
+}
+
+button.next,button.back{
+    max-height: 20px;
+    max-width: 50px;
+    margin: 188px 5px auto 5px;
+}
